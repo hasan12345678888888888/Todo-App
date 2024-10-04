@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: relative;
+    min-height: 95dvh;
+}
+.container {
+    margin: 0 20px;
+}
+.title {
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 30px;
+}
+.todoAddParent {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+
+}
+.todoInput {
+    flex: 1;
+    padding: 10px 15px;
+}
+.addTodoBtn {
+    background-color: lightblue;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.lineBreakRuler {
+    margin: 20px 0;
+}
+.todoList {
+    gap: 10px;
+}
+.todoItem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.todoItem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.todoItemText {
+    flex: 1;
+}
+
+.editBtn {
+    background-color: green;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.deleteBtn {
+    background-color: red;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.deleteAllParent {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    
+}
+.deleteAllBtn{
+    background-color: red;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
